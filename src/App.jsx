@@ -1,18 +1,19 @@
-import React from 'react';
+import "./App.css";
+// import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Home } from "./pages/Home/Home.jsx";
 
-import HeaderHome from './components/layout/Header/HeaderHome';
-import { Routes,Route } from 'react-router-dom';
-import { Home } from './components/page/Home/Home';
-
-import './App.css';
 
 function App() {
   return (
-    <>
-     <HeaderHome/>
+    <div className="App">
+      a
+      {/* <Router>
 
-     <Home/>
-     
-    </>
-  )}
+          <Route exact path="/" component={Home} />
+
+      </Router> */}
+    </div>
+  );
+}
+
 export default App;
